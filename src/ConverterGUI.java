@@ -20,9 +20,6 @@ public class ConverterGUI extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         ConverterGUI gui = new ConverterGUI();
-        gui.setEuroToDollarRate(1.2);
-        gui.setEuroToPoundRate(0.9);
-        gui.setEuroToRoubleRate(100.0);
     }
 
     public ConverterGUI() {
